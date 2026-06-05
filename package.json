@@ -27,7 +27,7 @@
 		"@mercuryworkshop/epoxy-transport": "^2.2.0",
 		"@titaniumnetwork-dev/ultraviolet": "^3.2.10",
 		"express": "^5.2.1",
-		"wisp-server-node": "^1.2.0",
+		"wisp-server-node": "^1.1.8",
 		"ws": "^8.19.0"
 	}
 }
