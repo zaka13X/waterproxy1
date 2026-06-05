@@ -7,8 +7,6 @@
 		"node": ">=24.0.0"
 	},
 	"scripts": {
-		"prestart": "pnpm build",
-		"build": "uv-build",
 		"start": "node src/index.js",
 		"format": "prettier --write .",
 		"lint": "eslint ./src/",
@@ -25,11 +23,11 @@
 		"prettier": "^3.8.1"
 	},
 	"dependencies": {
-		"@mercuryworkshop/bare-mux": "^2.1.8",
-		"@mercuryworkshop/epoxy-transport": "2.1.28",
+		"@mercuryworkshop/bare-mux": "^2.3.0",
+		"@mercuryworkshop/epoxy-transport": "^2.2.0",
 		"@titaniumnetwork-dev/ultraviolet": "^3.2.10",
 		"express": "^5.2.1",
-		"wisp-server-node": "1.1.7",
+		"wisp-server-node": "^1.2.0",
 		"ws": "^8.19.0"
 	}
 }
