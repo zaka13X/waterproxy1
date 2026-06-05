@@ -13,13 +13,13 @@
 		"lint:fix": "eslint ./src/ --fix"
 	},
 	"keywords": [
-		"proxy"
+		"node.js"
 	],
 	"packageManager": "pnpm@10.28.0",
 	"author": "",
 	"license": "GPL-3.0-or-later",
 	"devDependencies": {
-		"eslint": "^9.39.2",
+		"eslint": "^9.15.0",
 		"prettier": "^3.8.1"
 	},
 	"dependencies": {
