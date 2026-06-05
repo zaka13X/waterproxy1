@@ -7,6 +7,8 @@
 		"node": ">=24.0.0"
 	},
 	"scripts": {
+		"prestart": "pnpm build",
+		"build": "uv-build",
 		"start": "node src/index.js",
 		"format": "prettier --write .",
 		"lint": "eslint ./src/",
